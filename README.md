@@ -3,7 +3,7 @@
  
 12F - 拼圖 <a href="https://huiyuliz.github.io/js-puzzle/" target="_blank">Demo</a>，原生 JS 破關，可拖曳畫面上的拼圖進行遊戲；當拼圖拼到正確位置時，將不再允許觸發拖曳事件，直到重新洗牌或再玩一次，才會重新執行。  
 
-  ## HTML 拖放 API
+  ## HTML5 拖放 API
   這次挑戰著重在 draggable 的屬性，HTML5中的<a href="https://developer.mozilla.org/zh-TW/docs/Web/API/HTML_Drag_and_Drop_API" target="_blank">拖放 API </a>可以做到拖曳和放置的功能。  
   ```html
 <!--在拖曳的節點加上 draggable="true"-->
