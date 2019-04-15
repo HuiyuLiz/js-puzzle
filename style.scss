@@ -182,6 +182,7 @@ button {
     transition: transform 2s ease-in-out, left 0.5s, top 0.5s, right 0.5s;
     cursor: pointer;
     z-index: 9999;
+    user-select: none;
 
     &:nth-child(1) {
       position: relative;

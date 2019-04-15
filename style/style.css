@@ -240,6 +240,10 @@ button {
   transition: transform 2s ease-in-out, left 0.5s, top 0.5s, right 0.5s, -webkit-transform 2s ease-in-out;
   cursor: pointer;
   z-index: 9999;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .puzzles-imgs .puzzles-random:nth-child(1) {
