@@ -14,14 +14,14 @@
 ```   
   ## 預先練習 - 了解沒用過的功能  
   
-遇到沒用過的功能時，在對文件還在一知半解的情況下，除了上網查詢相關資訊外，在 Youtube 搜尋相關影片也是一種方式，以我自己的情況來說，看完影片後跟著實作一次，可以加速自己的學習狀況。  
+遇到沒用過的功能時，在對文件還一知半解的情況下，除了上網查詢相關資訊外，在 Youtube 搜尋相關影片也是一種方式，以我自己的情況來說，看完影片後跟著實作一次，可以加速自己的學習狀況。  
     
   ## Traversy Media 單張拖曳介紹影片 ⇒ <a href="https://www.youtube.com/watch?v=C22hQKE_32c" target="_blank">Drag & Drop With Vanilla JS
 </a>    
  
   ![image]( https://github.com/HuiyuLiz/js-puzzle/blob/master/img/screenshot3.jpg)
 
-  特別推薦這位開發者的 Youtube 影片，雖說內容是用英文講解，不過再搭配 CC 字幕下的口說速度是我可以理解的程度，另外寫 Code 也會用最基本的寫法介紹，對新手來說是相當友善的，藉這次機會把之前看過的影片再跟著練習一次。  
+  特別推薦這位開發者的 Youtube 影片，雖說內容是用英文講解，在一邊搭配 CC 字幕的口說速度是我可以理解的聽力程度，此外程式碼也會用最基本的寫法呈現，對新手來說是相當友善的，藉這次機會把之前看過的影片再跟著練習一次。  
   
   
   
@@ -62,7 +62,7 @@
   })  
 
  ```  
- 目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，拼圖放置到正確位置時，若尾數一致，拼圖將會散發光芒。  
+ 目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，拼圖放置到正確位置時，若尾數一致，拼圖將會散發光芒，以顯示正確。  
  
  ##  參考資料  
    <a href="https://pjchender.blogspot.com/2017/08/html5-drag-and-drop-api.html" target="_blank">[筆記] 製作可拖曳的元素（HTML5 Drag and Drop API）</a>  
