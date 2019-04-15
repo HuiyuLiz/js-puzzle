@@ -30,7 +30,7 @@
   
 ## 鼻孔哥JS案例  ⇒ <a href="https://www.bilibili.com/video/av43463663/?p=1" target="_blank">拼圖遊戲</a>   
   ![image]( https://github.com/HuiyuLiz/js-puzzle/blob/master/img/screenshot2.jpg)  
-  另外分享這位開發者的教學，內容幾乎可以運用在這次的挑戰上。使用DataTransfer.setData()，可以在拖曳時夾帶資訊到放置的節點上。  
+  另外分享這位開發者的教學，內容幾乎可以運用在這次的挑戰上。使用DataTransfer.setData()，可以在拖曳時夾帶資訊到放置的節點上，之後用來比對參數是否一致。  
   
  ```js
 
@@ -65,6 +65,6 @@
   })  
 
  ```  
- 之後用來比對參數是否一致。目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，若尾數一致，拼圖將會顯示正確。
+ 目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，拼圖放置到正確位置時，若尾數一致，拼圖將會散發光芒。
 
  
