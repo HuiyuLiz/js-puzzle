@@ -12,9 +12,6 @@
 </li>  
  
 ```   
-  
-  參考資料: <a href="https://pjchender.blogspot.com/2017/08/html5-drag-and-drop-api.html" target="_blank">[筆記] 製作可拖曳的元素（HTML5 Drag and Drop API）</a>     
-
   ## 預先練習 - 了解沒用過的功能  
   
 遇到沒用過的功能時，在對文件還不是很了解的情況下，除了上網查詢相關資訊外，在 Youtube 搜尋有沒有相關的影片也是一種方式，對我來說，看完影片後跟著實作一次，可以加速自己的學習狀況。  
@@ -65,6 +62,9 @@
   })  
 
  ```  
- 目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，拼圖放置到正確位置時，若尾數一致，拼圖將會散發光芒。
+ 目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，拼圖放置到正確位置時，若尾數一致，拼圖將會散發光芒。  
+ 
+ ##  參考資料  
+   <a href="https://pjchender.blogspot.com/2017/08/html5-drag-and-drop-api.html" target="_blank">[筆記] 製作可拖曳的元素（HTML5 Drag and Drop API）</a>  
 
  
