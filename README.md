@@ -16,25 +16,26 @@
   參考資料: <a href="https://pjchender.blogspot.com/2017/08/html5-drag-and-drop-api.html" target="_blank">[筆記] 製作可拖曳的元素（HTML5 Drag and Drop API）</a>     
 
   ## 預先練習 - 了解沒用過的功能  
-  ### Traversy Media 單張拖曳介紹影片 ⇒ <a href="https://www.youtube.com/watch?v=C22hQKE_32c" target="_blank">Drag & Drop With Vanilla JS
+  
+遇到沒用過的功能時，在對文件還不是很了解的情況下，除了上網查詢相關資訊外，在 Youtube 搜尋有沒有相關的影片也是一種方式，對我來說，看完影片後跟著實作一次，可以加速自己的學習狀況。  
+    
+  ## Traversy Media 單張拖曳介紹影片 ⇒ <a href="https://www.youtube.com/watch?v=C22hQKE_32c" target="_blank">Drag & Drop With Vanilla JS
 </a>    
  
   ![image]( https://github.com/HuiyuLiz/js-puzzle/blob/master/img/screenshot3.jpg)
-  
-  遇到沒用過的功能時，在對文件還不是很了解的情況下，除了上網查詢相關資訊外，在 Youtube 搜尋有沒有相關的影片也是一種方式，對我來說，看完影片後跟著實作一次，可以加速自己的學習狀況。  
-  
+
   特別推薦這位開發者的 Youtube 影片，雖說內容是用英文講解，不過再搭配 CC 字幕下的口說速度是我可以理解的程度，另外寫 Code 也會用最基本的寫法介紹，對新手來說是相當友善的，藉這次機會把之前看過的影片再跟著練習一次。  
   
   
   
-### 鼻孔哥JS案例  ⇒ <a href="https://www.bilibili.com/video/av43463663/?p=1" target="_blank">拼圖遊戲</a>   
+## 鼻孔哥JS案例  ⇒ <a href="https://www.bilibili.com/video/av43463663/?p=1" target="_blank">拼圖遊戲</a>   
   ![image]( https://github.com/HuiyuLiz/js-puzzle/blob/master/img/screenshot2.jpg)  
   另外分享這位開發者的教學，內容幾乎可以運用在這次的挑戰上。使用DataTransfer.setData()，可以在拖曳時夾帶資訊到放置的節點上。  
   
  ```js
 
    let dragStart = function (e) {
-    // 傳送 id 到 drop
+    // 傳送 img id 到 drop
     let id = e.target.id
     e.dataTransfer.setData('id', id)
   }
@@ -45,11 +46,11 @@
     let dragPuzzle = document.getElementById(dragId)
     if (dragPuzzle === null) return
 
-    // 準備放下的 LI 區塊 
+    // 準備放下的 li 區塊 
     let dropId = e.target.id
     let dropParent = document.getElementById(dropId)
     
-    //將拖曳過來的 img 新增到 LI 的子節點
+    //將拖曳過來的 img 新增到 li 的子節點
     if (dropParent.nodeName === 'LI') {
       dropParent.append(dragPuzzle)
     }
@@ -64,6 +65,6 @@
   })  
 
  ```  
- 之後用來比對參數是否一致。目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，若尾數一致，拼圖將會顯示正確
+ 之後用來比對參數是否一致。目前的實作是將圖片的 id 參數 #Puzzle-1 與放置的 id 參數 #item-1 尾數進行比對，若尾數一致，拼圖將會顯示正確。
 
  
